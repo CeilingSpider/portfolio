@@ -5,28 +5,52 @@
   body {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    color: #040005;
+    color: #FFF;
     line-height: 1.35;
+    background-color: #1F1F20;
     
   }
   
 
   header {
     height: 45em;
-    color: #617787;
+    color: #FFF;
     padding-left: 12%;
     padding-right: 12%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
-    
+    text-align: center;
+    background-color: #fdfdfd;
+    background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url('https://i.imgur.com/FC95NPr.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .hero-text {
+      line-height: 3rem;
+      padding-top: 5%;
+      font-size: 38px;
   }
 
   
   
   
-  section:nth-child(even) {
-    background-image: linear-gradient(to bottom, #DEEAF3, white);
+  section:nth-child(odd) {
+    /**background-image: linear-gradient(to bottom, #000, #16132E);**/
+    background: linear-gradient(
+                     rgba(20,20,20, .77), 
+                     rgba(20,20,20, .77)),
+                     url('https://i.imgur.com/FC95NPr.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
   
   h2, h3, h4 {
@@ -40,6 +64,7 @@
   } 
   p {
       word-break: break-word;
+      line-height: 2;
   }
 
 
@@ -47,7 +72,7 @@
   
   .icons {
     font-size: 2.5rem;
-    color: #65907C;
+    color: #FFF;
   }
 
 
@@ -55,6 +80,7 @@
       display: block;
       text-align: center;
       margin: auto;
+      
 
   }
 
@@ -65,7 +91,8 @@
   .container {
     display: block;
     padding-top: 2%;
-    padding-bottom: 7%;
+    padding-bottom: 4%;
+    
   }
 
   .aboutme-div {
@@ -79,12 +106,25 @@
 
   section > h2 {
       text-align: center;
+      padding-top: 2rem;
   }
 
   .center {
       text-align: center;
   }
 
+  .project-link:link, .project-link:visited {
+    background-color: #302E42;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .project-link:hover, .project-link:active {
+    background-color: #000;
+  }
 
   /** for larger screens **/
 
@@ -94,7 +134,7 @@
 
       header {
         height: 55vw;
-        color: #617787;
+        color: #FFF;
         padding: 12% 6%;
         display: flex;
         flex-direction: row;
