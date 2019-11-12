@@ -12,6 +12,7 @@
   }
   
 
+  /** header/hero **/
   header {
     height: 45em;
     color: #FFF;
@@ -39,10 +40,9 @@
   }
 
   
-  
+  /** section background and text **/
   
   section:nth-child(odd) {
-    /**background-image: linear-gradient(to bottom, #000, #16132E);**/
     background: linear-gradient(
                      rgba(20,20,20, .77), 
                      rgba(20,20,20, .77)),
@@ -67,14 +67,21 @@
       line-height: 2;
   }
 
+ section > h2 {
+      text-align: center;
+      padding-top: 3rem;
+  }
 
 
+/** images/icons **/
   
   .icons {
     font-size: 2.5rem;
     color: #FFF;
   }
 
+
+  /** projects section **/
 
   .projects-div {
       display: block;
@@ -88,6 +95,27 @@
       text-align: left;
       padding: 5%;
 }
+
+.project-link:link, .project-link:visited {
+    background-color: #000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .project-link:hover, .project-link:active {
+    background-color: #302E42;
+  }
+
+  .project-link {
+    margin: 1px 10px 6px 10px;
+  }
+
+
+  /** about me and contact section **/
+
   .container {
     display: block;
     padding-top: 2%;
@@ -107,39 +135,15 @@
 
   .contact-div > a > img {
     padding-top: 2%;
-     margin: 0 14% 0 14%;
+     margin: 0 10% 0 10%;
   }
 
-  section > h2 {
-      text-align: center;
-      padding-top: 3rem;
-  }
-
-  .center {
-      text-align: center;
-  }
-
-  .project-link:link, .project-link:visited {
-    background-color: #000;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+ 
   
-  .project-link:hover, .project-link:active {
-    background-color: #302E42;
-  }
-
-  .project-link {
-    margin: 1px 10px 6px 10px;
-  }
 
 
 
-
-  /** for larger screens **/
+  /**       for larger screens          **/
 
 
   @media only screen and (min-width: 768px) {
