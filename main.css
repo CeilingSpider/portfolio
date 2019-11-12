@@ -103,10 +103,16 @@
   .contact-div {
       text-align: center;
   }
+  
+
+  .contact-div > a > img {
+    padding-top: 2%;
+     margin: 0 14% 0 14%;
+  }
 
   section > h2 {
       text-align: center;
-      padding-top: 2rem;
+      padding-top: 3rem;
   }
 
   .center {
@@ -114,7 +120,7 @@
   }
 
   .project-link:link, .project-link:visited {
-    background-color: #302E42;
+    background-color: #000;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -123,8 +129,15 @@
   }
   
   .project-link:hover, .project-link:active {
-    background-color: #000;
+    background-color: #302E42;
   }
+
+  .project-link {
+    margin: 1px 10px 6px 10px;
+  }
+
+
+
 
   /** for larger screens **/
 
