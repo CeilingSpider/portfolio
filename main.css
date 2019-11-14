@@ -174,26 +174,25 @@ html {
   /** about me **/
 
   .container {
-    display: block;
-    padding-top: 2%;
-    padding-bottom: 4%;
-    height: 175%;
-    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .aboutme-div {
     margin: 0 auto;
     text-align: center;
-    width: 90%;
+    width: 75%;
   }
 
  .aboutme-img {
-    padding: 3% 0 3% 0;
-    width: 90%;
+    padding: 2%;
   }
 
-  .aboutme-img figure {
-    width: 80%;
+  .aboutme-img img {
+    border: 1px solid #000;
+    border-radius: 2%;
   }
 
 
@@ -231,7 +230,7 @@ html {
   /**       *~~~~Screens bigger than 600px wide!~~~~*        **/
 
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 650px) {
       
 /** HEADER **/
 
@@ -261,7 +260,7 @@ html {
 
 
       .projects-div-outer {
-         border: 2px solid #FFF; 
+         border: 2px solid #000; 
         }
 
       .projects-div h3 {
@@ -278,6 +277,11 @@ html {
       .container {
           display: flex;
           flex-flow: row nowrap;
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+          justify-items: center;
+          border-top: 2px solid #000;
       }
 
       .aboutme-div {
