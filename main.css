@@ -304,12 +304,13 @@ html {
         display: flex;
         flex-direction: row;
         width: 100%;
+        align-items: baseline;
       }
 
 
     footer {
       width: 40%;
-      
+
     }
 
       
