@@ -12,7 +12,7 @@ html {
     color: #FFF;
     line-height: 1.35;
     background-color: #1F1F20;
-    
+    margin: 0;
   }
 
 
@@ -142,6 +142,7 @@ html {
   .projects-div-outer {
     margin: 2.5%;
     background-color: rgba(0, 0, 0, 0.5);
+    border: 1.5px solid #000;
   }
 
   .project > p {
@@ -195,7 +196,10 @@ html {
     border-radius: 2%;
   }
 
-
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
 
   /** contact div **/
 
@@ -211,6 +215,7 @@ html {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: baseline;
 }
   
 
@@ -218,19 +223,17 @@ html {
  /** footer **/
 
  footer {
-   text-align: center;
    width: 100%;
    padding-top: 1%;
-   padding-bottom: 1%;
  }
   
 
 
 
-  /**       *~~~~Screens bigger than 600px wide!~~~~*        **/
+  /**       *~~~~Screens bigger than 768px wide!~~~~*        **/
 
 
-  @media only screen and (min-width: 650px) {
+  @media only screen and (min-width: 768px) {
       
 /** HEADER **/
 
@@ -261,6 +264,8 @@ html {
 
       .projects-div-outer {
          border: 2px solid #000; 
+         margin-left: 2%;
+         margin-right: 2%;
         }
 
       .projects-div h3 {
@@ -285,13 +290,11 @@ html {
       }
 
       .aboutme-div {
-        width: 60%;
         padding: 3% 5% 3% 5%;
       }
 
       .aboutme-img {
-        width: 40%;
-        margin-right: 7.5%;
+        /**width: 40%;**/
         margin-top: 3.25%;
 
       }
@@ -304,7 +307,10 @@ html {
       }
 
 
-    
+    footer {
+      width: 40%;
+      
+    }
 
       
   }
