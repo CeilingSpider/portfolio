@@ -143,7 +143,7 @@ html {
   .projects-div-outer {
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 1.25rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 5rem;
   }
 
   .project > p {
@@ -176,6 +176,7 @@ html {
    max-width: 55%;
  }
 
+
   /** about me **/
 
   .container {
@@ -183,6 +184,7 @@ html {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    padding: 2rem 1rem 4rem 1rem;
   }
 
   .aboutme-div {
@@ -292,7 +294,7 @@ html {
       }
 
       .aboutme-div {
-        padding: 3% 5% 3% 5%;
+        padding: 1rem;
         width: 75%;
       }
 
