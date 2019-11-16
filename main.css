@@ -146,6 +146,10 @@ html {
     padding-bottom: 5rem;
   }
 
+  .project {
+    width: 100%;
+  }
+  
   .project > p {
       text-align: left;
       opacity: 1;
@@ -267,12 +271,6 @@ html {
         justify-content: space-evenly;
       }
 
-
-      .projects-div-outer {
-         margin-left: 2%;
-         margin-right: 2%;
-        }
-
       .projects-div h3 {
           text-align: center;
       }
@@ -280,6 +278,8 @@ html {
 
       .project {
           width: 70%;
+          padding: 1.5rem;
+          border: 2px solid #FFF;
       }
 
 /** ABOUT ME **/
