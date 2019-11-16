@@ -101,7 +101,7 @@ html {
   } 
   p {
       word-break: break-word;
-      line-height: 2;
+      line-height: 1.85;
       text-align: left;
   }
 
@@ -136,27 +136,29 @@ html {
       flex-flow: column wrap;
       text-align: center;
       margin: auto;
+      padding: .5rem;
       
   }
 
   .projects-div-outer {
-    margin: 2.5%;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1.5px solid #000;
+    border: 1px solid #000;
   }
 
   .project > p {
       text-align: left;
-      padding: 5%;
       opacity: 1;
+      margin-top: 1.5rem;
+      padding: .5rem;
 }
 
 .project-link:link, .project-link:visited {
-    background-color:  #1F1F20;
+    background-color: rgba(0, 0, 0, 0.05);
     color: white;
     padding: 14px 25px;
     text-align: center;
-    width: 90px;
+    width: 6rem;
     text-decoration: none;
     display: inline-block;
     border: 2px #FFF solid;
@@ -167,10 +169,12 @@ html {
   }
 
   .project-link {
-    margin: 1px 10px 6px 10px;
+    margin: .2rem .5rem .2rem .5rem;
   }
 
- 
+ .project-img {
+   max-width: 55%;
+ }
 
   /** about me **/
 
@@ -183,8 +187,6 @@ html {
 
   .aboutme-div {
     margin: 0 auto;
-    text-align: center;
-    width: 75%;
   }
 
  .aboutme-img {
@@ -192,7 +194,9 @@ html {
   }
 
   .aboutme-img img {
-    border: 1px solid #000;
+    max-width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
     border-radius: 2%;
   }
 
