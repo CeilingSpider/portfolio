@@ -141,9 +141,9 @@ html {
   }
 
   .projects-div-outer {
-    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid #000;
+    padding-top: 1.25rem;
+    padding-bottom: 1.5rem;
   }
 
   .project > p {
@@ -267,7 +267,6 @@ html {
 
 
       .projects-div-outer {
-         border: 2px solid #000; 
          margin-left: 2%;
          margin-right: 2%;
         }
@@ -278,29 +277,27 @@ html {
 
 
       .project {
-          width: 35%;
+          width: 70%;
       }
 
 /** ABOUT ME **/
 
       .container {
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content: center;
-          align-content: center;
-          align-items: center;
-          justify-items: center;
-          border-top: 2px solid #000;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
       }
 
       .aboutme-div {
         padding: 3% 5% 3% 5%;
+        width: 75%;
       }
 
       .aboutme-img {
-        /**width: 40%;**/
-        margin-top: 3.25%;
-
+        padding: 1rem;
       }
 
       /** CONTACT & FOOTER **/
@@ -308,14 +305,12 @@ html {
         display: flex;
         flex-direction: row;
         width: 100%;
-        align-items: baseline;
+        padding-left: 20%;
+        padding-right: 20%;
       }
 
 
-    footer {
-      width: 40%;
-
-    }
+      
 
       
   }
