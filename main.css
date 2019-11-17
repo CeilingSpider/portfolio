@@ -102,7 +102,6 @@ html {
   p {
       word-break: break-word;
       line-height: 1.85;
-      text-align: left;
   }
 
   a {
@@ -142,18 +141,19 @@ html {
 
   .projects-div-outer {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 1.25rem;
+    padding-top: 2.5rem;
     padding-bottom: 5rem;
   }
 
   .project {
-    width: 100%;
+    width: 90%;
+    align-self: center;
   }
-  
+
   .project > p {
       text-align: left;
       opacity: 1;
-      margin-top: 1.5rem;
+      margin-top: 3rem 1.5rem 3rem 1.5rem;
       padding: .5rem;
 }
 
@@ -192,11 +192,12 @@ html {
   }
 
   .aboutme-div {
-    margin: 0 auto;
+    padding: 1.75rem;
   }
 
  .aboutme-img {
     padding: 2%;
+    text-align: center;
   }
 
   .aboutme-img img {
@@ -295,12 +296,20 @@ html {
 
       .aboutme-div {
         padding: 1rem;
-        width: 75%;
+        width: 60%;
+        text-align: left;
       }
 
       .aboutme-img {
-        padding: 1rem;
+        padding: 1.5rem;
+        text-align: center;
       }
+
+      .aboutme-img p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
+
 
       /** CONTACT & FOOTER **/
       .contact-div {
