@@ -52,8 +52,6 @@ html {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    text-align: center;
-    background-color: #fdfdfd;
     background: linear-gradient(
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
@@ -61,7 +59,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  */
   }
 
   .hero-text {
@@ -77,18 +75,7 @@ html {
 
 
 
-  /** section background and text **/
-  
-  section:nth-child(even) {
-    background: linear-gradient(
-                     rgba(20,20,20, .77), 
-                     rgba(20,20,20, .77)),
-                     url('https://i.imgur.com/FC95NPr.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
+/** styles for text **/
   
   h2, h3, h4 {
     font-family: 'Noto Serif TC', serif;
@@ -135,12 +122,12 @@ html {
       flex-flow: column wrap;
       text-align: center;
       margin: auto;
-      padding: .5rem;
+      padding: 1.5rem;
       
   }
 
   .projects-div-outer {
-    background-color: rgba(0, 0, 0, 0.5);
+    
     padding-top: 2.5rem;
     padding-bottom: 5rem;
     background: linear-gradient(
@@ -156,6 +143,7 @@ html {
   .project {
     width: 90%;
     align-self: center;
+    
   }
 
   .project > p {
@@ -288,8 +276,9 @@ html {
 
       .project {
           width: 70%;
-          padding: 1.5rem;
+          padding: 2.5rem;
           border: 2px solid #FFF;
+          background-color: rgba(0, 0, 0, 0.5);
       }
 
 /** ABOUT ME **/
