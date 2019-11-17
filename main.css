@@ -141,7 +141,7 @@ html {
   }
 
   .project {
-    width: 90%;
+    width: 100%;
     align-self: center;
     
   }
@@ -189,7 +189,7 @@ html {
   }
 
   .aboutme-div {
-    padding: 1.75rem;
+    padding: 1.5rem;
   }
 
  .aboutme-img {
@@ -293,7 +293,6 @@ html {
       }
 
       .aboutme-div {
-        padding: 1rem;
         width: 60%;
         text-align: left;
       }
