@@ -173,6 +173,9 @@ html {
    max-width: 55%;
  }
 
+.project-right p {
+  text-align: left;
+}
 
   /** about me **/
 
